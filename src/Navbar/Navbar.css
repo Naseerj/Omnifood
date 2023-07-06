@@ -1,0 +1,45 @@
+.omnilogo{
+    width: 130px;
+    height: 25px;
+    align-items: center;
+}
+.overalldiv{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fdf2e9;
+  padding: 10px;
+  width: 85%;
+}
+
+.linksdiv{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-btn{
+    background-color: #cf711f;
+    border-radius: 5px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+    padding: 5px;
+    color: white;
+    border: none;
+font-weight: 600
+}
+
+.linksdiv a{
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+
+}
+
+.cover{
+    background-color: #fdf2e9;
+
+}
