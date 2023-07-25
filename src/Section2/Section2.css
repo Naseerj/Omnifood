@@ -1,0 +1,34 @@
+
+.ovrdiv{
+    margin: 0 auto;
+}
+.ovrdiv p{
+    text-align: center;
+    font-size: 1.5rem;
+    color:  #6f6f6f;
+}
+
+.logodiv img{
+    width: 10rem;
+    color:  #6f6f6f;
+
+}
+.logodiv{
+    /* height: 500px; */
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.screens{
+    display: flex;
+    justify-content: space-between;
+}
+
+.screentext1{
+    width: 40%;
+}
