@@ -1,11 +1,23 @@
 
 .ovrdiv{
     margin: 0 auto;
+    /* margin-top: 5rem; */
 }
-.ovrdiv p{
+.ovrdiv > p{
     text-align: center;
     font-size: 1.5rem;
     color:  #6f6f6f;
+}
+.instruction{
+    margin-top: 5rem;
+    padding: 3rem;
+}
+.instruction h5{
+    font-size: 2.5rem;
+    color:  #e67e22;
+}
+.instruction h1{
+    font-size: 3rem;
 }
 
 .logodiv img{
@@ -24,11 +36,106 @@
     align-items: center;
 }
 
+.num1{
+    /* font-size: 20rem; */
+    /* color: #6f6f6f; */
+    color: #6f6f6f;;
+}
+
 .screens{
     display: flex;
     justify-content: space-between;
+    padding: 5rem;
+}
+
+.screens2{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
 }
 
 .screentext1{
-    width: 40%;
+    width: 50%;
+}
+
+.screentext1 h1{
+    font-size: 6rem;
+    margin: 0;
+    font-weight: 400;
+}
+.pfirst{
+    font-size: 2rem;
+    font-weight: 600;
+    /* color: red; */
+}
+.psecond{
+    font-size: 60px;
+}
+.screens3{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+    position: relative;
+}
+
+
+/* .fancify {
+    font-size: 4rem;
+    font-weight: 800;
+    font-family: Consolas, "Segoe UI", Calibri, sans-serif;
+    font-style: italic;
+} */
+
+.psecond{
+    font-size: 1.5rem;
+    color: #6f6f6f;
+}
+
+.screen1{
+    width: 250px;
+}
+.screen2{
+    width: 250px;
+}
+.screen3{
+    width: 250px;
+}
+
+
+.design{
+    width: 20rem;
+    height: 20rem;
+    background-color: #fae5d3;
+    border-radius: 50%;
+    border: 3rem solid #fdf2e9;
+    /* border-width: .5rem; */
+    --clr-primary-4: ;
+    --clr-primary-5: ;
+    position: absolute;
+    right: -5rem;
+    top: 4rem;
+    z-index: -6;
+}
+.design2{
+    width: 20rem;
+    height: 20rem;
+    background-color: #fae5d3;
+    border-radius: 50%;
+    border: 3rem solid #fdf2e9;
+    /* border-width: .5rem; */
+   
+    position: absolute;
+    /* right: -5rem;
+    top: 4rem; */
+    /* left: 3rem; */
+    /* top: 3rem; */
+    top: 3rem;
+    left: -5rem;
+    z-index: -6;
+}
+.imgblock{
+    position: relative;
+}
+.imgblock2{
+    position: relative;
 }
