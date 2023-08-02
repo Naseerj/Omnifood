@@ -1,0 +1,36 @@
+.footie{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+}
+.logodiv2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    width: 250px;
+}
+.logof{
+    width: 200px;
+}
+.ig{
+    width: 30px;
+}
+.fb{
+width: 30px;
+}
+
+.twt{
+width: 30px;
+}
+
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+h2{
+    margin-top: 0;
+}

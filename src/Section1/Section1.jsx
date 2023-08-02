@@ -7,10 +7,12 @@ import customer3 from "../assets/img/customers/customer-3.jpg";
 import customer4 from "../assets/img/customers/customer-4.jpg";
 import customer5 from "../assets/img/customers/customer-5.jpg";
 import customer6 from "../assets/img/customers/customer-6.jpg";
+import Section2 from "../Section2/Section2";
 
 const Section1 = () => {
   return (
-    <div className="parentdiv">
+   <div>
+     <div className="parentdiv">
       <div className="part1div">
         <h1 className="header1">
           A healthy meal delivered to your door, step every single day
@@ -37,6 +39,7 @@ const Section1 = () => {
         <img className="heroImg" src={heroImg} alt="" />
       </div>
     </div>
+   </div>
   );
 };
 
