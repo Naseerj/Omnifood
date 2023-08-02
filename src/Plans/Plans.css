@@ -1,5 +1,5 @@
-.pricingdiv{
-    padding: 5rem;
+.pricingdiv {
+  padding: 5rem;
 }
 
 .pricingdiv > h2 {
@@ -7,14 +7,69 @@
   /* padding: 5rem; */
 }
 
-.price-1{
+.priceslist{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 0 auto;
-    /* padding: 5rem; */
 }
 
-.price-1 img{
-    width: 2rem;
+.price-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 350px;
+  height: 500px;
+  /* padding: 5rem; */
+  /* border: 1px solid #e67e22; */
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 5px #e67e22;
+}
+
+
+
+.price-1 img {
+  width: 2rem;
+}
+
+.price-1 h3{
+    color: #e67e22;
+    margin: 0 auto;
+}
+
+.price-1 h1 {
+    /* color: #e67e22; */
+    font-size: 3.5rem;
+    margin: 0 auto;
+}
+
+.price-1 div{
+    display: flex; 
+    justify-content: space-between;
+    /* width: 200px; */
+    /* flex-direction: column; */
+    align-items: center;
+}
+.price-1 div:nth-child(even){
+   width: 185px;
+}
+
+.price-1 div:nth-child(odd){
+    width: 270px;
+ }
+ .price-1 div:last-child(even){
+    /* width: 270px; */
+    background-color: red;
+    padding: 5rem;
+    border: 2px solid orange;
+ }
+.btn-1 {
+  width: 13rem;
+  margin: 0 auto;
+  padding: .5rem;
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: .5rem;
+  border: none;
+  background-color: #e67e22;
+  color: white;
 }
