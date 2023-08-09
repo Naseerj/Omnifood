@@ -1,3 +1,44 @@
 .mealsdiv{
     text-align: center;
 }
+
+.showcases{
+    display: flex;
+    justify-content: space-between;
+}
+
+.showcase1{
+    width: 400px;
+    background-color: aqua;
+    border-radius: 2rem;
+    height: 500px;
+}
+
+.showcase1 img{
+    width: 400px;
+    border-radius: 2rem 2rem 0 0;
+
+}
+
+.showcase1 p{
+    /* text-align: left; */
+}
+
+.showcase1 button{
+    background-color: #51cf66;
+    border-radius: 1rem;
+    font-weight: 600;
+    padding: .4rem;
+    font-family: 'Rubik', sans-serif;
+    border: none;
+}
+
+.showcase2{
+    width: 400px;
+    background-color: aqua;
+    border-radius: 2rem;
+}
+.showcase2 img{
+    width: 400px;
+    border-radius: 2rem 2rem 0 0;
+}

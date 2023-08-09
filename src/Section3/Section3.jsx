@@ -9,12 +9,24 @@ const Section3 = () => {
       <div className="mealsdiv">
         <h2>Meals</h2>
         <h1>Omnifood AI chooses from 5,000+ recipes </h1>
-        <div>
-        <img src={meal1} alt="" />
-        <button>Miscellaneous</button>
-        <p>chakchouka</p>
+        <div className="showcases">
+        <div className="showcase1">
+          <img src={meal1} alt="" />
+          <button>MISCELLANEOUS</button>
+          <p>Chakchouka</p>
+          <p>96 calories</p>
+          <p>Nutriscore</p>
+          <p>2.6 rating</p>
         </div>
-        <img src={meal2} alt="" />
+        <div className="showcase2">
+          <img src={meal2} alt="" />
+          <button>Dessert</button>
+          <p>Parkin Cake</p>
+          <p>439 calories</p>
+          <p>Nutriscore</p>
+          <p>2.2 rating</p>
+        </div>
+        </div>
       </div>
     </div>
   );
