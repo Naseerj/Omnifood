@@ -1,0 +1,1 @@
+const meals = ['./assets/img/gallery/gallery-1.jpg', '/assets/img/gallery/gallery-2.jpg', './assets/img/gallery/gallery-1.jpg', './assets/img/gallery/gallery-2.jpg', './assets/img/gallery/gallery-3.jpg' ]
