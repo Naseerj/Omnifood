@@ -10,8 +10,8 @@ import meal2 from "../assets/img/meals/meal-2.jpg";
 
 const Section3 = () => {
   return (
-    <div>
-      <h2>Meals</h2>
+    <div className="coverdiv">
+      <h3>Meals</h3>
       <h1>Omnifood AI chooses from 5,000+ recipes </h1>
       <div className="mealsdiv">
         <div className="showcases">
@@ -78,49 +78,49 @@ const Section3 = () => {
             <span>
               <MdDone />
             </span>{" "}
-            Vegetarian
+            <p>Vegetarian</p>
           </p>
           <p>
             <span>
               <MdDone />
             </span>{" "}
-            Vegen
+           <p> Vegan</p>
           </p>{" "}
           <p>
             <span>
               <MdDone />
             </span>{" "}
-            Gluten-free
+            <p>Gluten-free</p>
           </p>{" "}
           <p>
             <span>
               <MdDone />
             </span>{" "}
-            Pescatarian
+            <p>Pescatarian</p>
           </p>{" "}
           <p>
             <span>
               <MdDone />
             </span>{" "}
-            Lactose-free
+            <p>Lactose-free</p>
           </p>
           <p>
             <span>
               <MdDone />
             </span>{" "}
-            Keto
+           <p> Keto</p>
           </p>{" "}
           <p>
             <span>
               <MdDone />
             </span>{" "}
-            Paleo
+            <p>Paleo</p>
           </p>
           <p>
             <span>
               <MdDone />
             </span>{" "}
-            Kid-friendly
+            <p>Kid-friendly</p>
           </p>
         </div>
       </div>

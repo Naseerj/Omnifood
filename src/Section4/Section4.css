@@ -19,10 +19,16 @@
   /* grid-template-rows: 4 1fr; */
   row-gap: 1rem;
   column-gap: 1rem;
+
 }
 
 .gridMeal img {
   width: 200px;
+}
+
+.gridMeal img:hover{
+  /* transform: scale(-.5, 1); */
+  /* transition: 2s; */
 }
 
 .davediv {
