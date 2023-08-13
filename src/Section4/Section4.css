@@ -28,6 +28,9 @@
 
 .gridMeal img:hover{
   /* transform: scale(-.5, 1); */
+  -webkit-animation: scale 1s ease;
+  animation: scaledown 1s linear;
+  animation-fill-mode: forwards;
   /* transition: 2s; */
 }
 
@@ -90,4 +93,30 @@
 .stevediv p {
   font-size: 20px;
   font-family: "Rubik", sans-serif;
+}
+
+
+@keyframes scaledown {
+  0%{
+    
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100%{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}
+
+@keyframes scale {
+  0%{
+    
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100%{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.3);
+  }
 }

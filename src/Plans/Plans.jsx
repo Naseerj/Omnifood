@@ -38,6 +38,7 @@ const Plans = () => {
             </div>
             <button className="btn-1">Get Plan</button>
           </div>
+          <div className="yellowtag"> BEST VALUE</div>
           <div className="price-2">
             <h3>COMPLETE</h3>
             <h1>

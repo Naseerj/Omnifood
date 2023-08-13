@@ -4,9 +4,11 @@ import { IoFlameOutline } from "react-icons/io5";
 import { IoRestaurantOutline } from "react-icons/io5";
 import { IoStarOutline } from "react-icons/io5";
 import { MdDone } from "react-icons/md";
-
+import { HiArrowNarrowRight } from "react-icons/hi";
 import meal1 from "../assets/img/meals/meal-1.jpg";
 import meal2 from "../assets/img/meals/meal-2.jpg";
+
+import {Link} from 'react-router-dom'
 
 const Section3 = () => {
   return (
@@ -84,7 +86,7 @@ const Section3 = () => {
             <span>
               <MdDone />
             </span>{" "}
-           <p> Vegan</p>
+            <p> Vegan</p>
           </p>{" "}
           <p>
             <span>
@@ -108,7 +110,7 @@ const Section3 = () => {
             <span>
               <MdDone />
             </span>{" "}
-           <p> Keto</p>
+            <p> Keto</p>
           </p>{" "}
           <p>
             <span>
@@ -124,6 +126,16 @@ const Section3 = () => {
           </p>
         </div>
       </div>
+
+      <div className="previewdiv">
+       <Link className="link1" to='meals'> <h4>See the recipes</h4>{" "}</Link>
+        <span>
+          {" "}
+          <HiArrowNarrowRight />{" "}
+        </span>{" "}
+      </div>
+      <div></div>
+      {/* <HiMiniArrowLongRight/> */}
     </div>
   );
 };

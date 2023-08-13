@@ -5,6 +5,14 @@ import Section3 from '../Section3/Section3'
 import Section4 from '../Section4/Section4'
 
 const Landingpage = () => {
+
+
+  // if (navigator.onLine) {
+  //   alert('online');
+  // } else {
+  //   alert('offline');
+  // }
+
   return (
     <div>
         <Section1 />

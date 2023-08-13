@@ -1,20 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Rubik:wght@400;500;600;700&display=swap");
 
-
 /* .coverdiv h1,
 p {
   margin: 0 auto;
 } */
-.coverdiv{
+.coverdiv {
   margin: 0 auto;
 }
 
 .coverdiv > h3 {
-color: #eb984e;
-text-align: center;
-/* font-family: 'Poppins', sans-serif; */
-text-transform: uppercase;
-/* line-height: 2px; */
+  color: #eb984e;
+  text-align: center;
+  /* font-family: 'Poppins', sans-serif; */
+  text-transform: uppercase;
+  /* line-height: 2px; */
 }
 
 .coverdiv > h1 {
@@ -22,7 +21,7 @@ text-transform: uppercase;
   text-align: center;
   font-size: 50px;
   margin-top: 20px;
-  }
+}
 .mealsdiv {
   text-align: center;
   padding: 5rem;
@@ -50,7 +49,7 @@ text-transform: uppercase;
 
 .showcase1 img {
   width: 350px;
-  border-radius: .5rem .5rem 0 0;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .showcase1 p {
@@ -100,7 +99,7 @@ text-transform: uppercase;
 }
 .showcase2 img {
   width: 350px;
-  border-radius: .5rem .5rem 0 0;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .showcase2 button {
@@ -183,4 +182,39 @@ text-transform: uppercase;
   /* margin-right: 100px; */
   width: 150px;
   margin: 0 100px 0 0px;
+}
+
+/* .preview{
+  align-items: center;
+  color: #eb984e;
+  margin-bottom: 0;
+
+} */
+
+.previewdiv {
+  width: 160px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  
+  /* padding: .2rem; */
+  
+  border-bottom: 2px solid #eb984e;
+
+}
+
+.previewdiv h4{
+  margin: 0;
+  color: #eb984e;
+}
+
+.previewdiv span{
+  align-items: center;
+  color: #eb984e;
+  margin-top: 3.5px;
+}
+
+
+.link1{
+  text-decoration: none;
 }

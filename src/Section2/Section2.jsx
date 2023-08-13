@@ -22,7 +22,7 @@ const Section2 = () => {
       </div>
 
       <div className="instruction">
-        <h5>How it works</h5>
+        <h5>HOW IT WORKS</h5>
         <h1>Your daily dose of health in 3 simple steps </h1>
         <div className="screens">
           <div className="screentext1">

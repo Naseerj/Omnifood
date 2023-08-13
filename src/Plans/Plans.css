@@ -123,6 +123,19 @@
   border: 2px solid orange;
 }
 
+.yellowtag{
+  /* width: 300px; */
+  background-color: yellow;
+  /* border-radius: 20px 0 20px 0; */
+  height: 30px;
+  align-items: center;
+  /* clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);   */
+  /* clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); */
+  /* clip-path: path('M 0 200 L 0,75 A 5,5 0,0,1 150,75 L 200 200 z'); */
+  /* rotate: 150deg; */
+  
+}
+
 
 .linediv {
   display: flex;

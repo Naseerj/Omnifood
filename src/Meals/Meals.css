@@ -1,0 +1,78 @@
+.allmeal{
+    margin: 0 auto;
+    padding: 5rem;
+      /* background-color: #fdf2e9; */
+}
+
+.all{
+    width: 70px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: .7rem;
+    background-color: #fff;
+    border: 3px solid #fae5d3;
+    font-weight: 600;
+    color: #e67e22;
+}
+
+.side{
+    width: 85px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: .6rem;
+    background-color: #fff;
+    border: 3px solid #fae5d3;
+    font-weight: 600;
+    color: #e67e22;
+}
+.beef{
+    width: 85px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: .7rem;
+    background-color: #fff;
+    border: 3px solid #fae5d3;
+    font-weight: 600;
+    color: #e67e22;
+}
+.vegetarian{
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: .7rem;
+    background-color: #fff;
+    border: 3px solid #fae5d3;
+    font-weight: 600;
+    color: #e67e22;
+}
+button:hover{
+    border: none;
+    color: #fff;
+    background-color: #e67e22;
+    transition: .5s;
+    cursor: pointer;
+}
+
+button:active{
+    /* border: none; */
+    color: #fff;
+    background-color: #e67e22;
+    transition: .5s;
+    /* background-color: black; */
+}
+
+.renderbtn{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.gridrender{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 5rem;
+    padding-top: 5rem;
+    /* grid-template-rows: ; */
+    /* background-color: red; */
+}
