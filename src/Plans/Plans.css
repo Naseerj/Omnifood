@@ -2,13 +2,19 @@
   padding: 5rem;
 }
 
-.pricingdiv > h2 {
-  font: 10rem;
+.pricingdiv > h5 {
   /* padding: 5rem; */
+  color: #e67e22;
+  font-size: 1.5rem;
 }
 
+.pricingdiv h1 {
+  font-size: 3rem;
+  margin-bottom: 8rem;
+}
 .priceslist {
   display: flex;
+  position: relative;
 }
 
 .price-1 {
@@ -16,13 +22,17 @@
   flex-direction: column;
   justify-content: space-between;
   margin: 0 auto;
-  width: 350px;
+  width: 340px;
   height: 500px;
   /* padding: 5rem; */
   /* border: 1px solid #e67e22; */
   padding: 2rem;
   border-radius: 2rem;
   box-shadow: 0px 0px 5px #e67e22;
+}
+
+.dollars {
+  font-size: 2.2rem;
 }
 
 .price-1 img {
@@ -38,6 +48,10 @@
   /* color: #e67e22; */
   font-size: 3.5rem;
   margin: 0 auto;
+}
+
+.price-1 p {
+  text-align: center;
 }
 
 .price-1 div {
@@ -72,19 +86,24 @@
   color: white;
 }
 
-.price-2{
+.price-2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: 0 auto;
-  width: 350px;
+  width: 340px;
   height: 500px;
   background-color: #fdf2e9;
   /* padding: 5rem; */
   /* border: 1px solid #e67e22; */
   padding: 2rem;
   border-radius: 2rem;
+  position: relative;
   /* box-shadow: 0px 0px 5px #e67e22; */
+}
+
+.absolute {
+  position: relative;
 }
 
 .price-2 img {
@@ -102,6 +121,10 @@
   margin: 0 auto;
 }
 
+.price-2 p {
+  text-align: center;
+}
+
 .price-2 div {
   display: flex;
   justify-content: space-between;
@@ -110,32 +133,40 @@
   align-items: center;
 }
 .price-2 div:nth-child(even) {
-  width: 185px;
+  /* width: 185px; */
 }
 
 .price-2 div:nth-child(odd) {
-  width: 270px;
+  /* width: 270px; */
 }
 .price-2 div:last-child(even) {
   /* width: 270px; */
-  background-color: red;
+  /* background-color: red;
   padding: 5rem;
-  border: 2px solid orange;
+  border: 2px solid orange; */
 }
 
-.yellowtag{
-  /* width: 300px; */
-  background-color: yellow;
-  /* border-radius: 20px 0 20px 0; */
-  height: 30px;
-  align-items: center;
-  /* clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);   */
-  /* clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); */
-  /* clip-path: path('M 0 200 L 0,75 A 5,5 0,0,1 150,75 L 200 200 z'); */
-  /* rotate: 150deg; */
-  
+.yellowtag {
+  width: 130px;
+  height: 40px;
+  font-size: 15px;
+  border-bottom: 35px solid #ffd43b;
+  border-left: 40px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  left: 15.6rem;
+  rotate: 40deg;
+  top: 0.1rem;
 }
 
+.yellowtag h3 {
+  font-weight: 600;
+  margin: 0%;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  color: black;
+}
 
 .linediv {
   display: flex;
@@ -154,18 +185,17 @@
   height: 40px;
 }
 
-.infinitydiv h2{
-margin-top: 30px;
+.infinitydiv h2 {
+  margin-top: 30px;
 }
 
-.infinitydiv p{
+.infinitydiv p {
   font-size: 18px;
-  }
-  
-.infinitydiv{
+}
+
+.infinitydiv {
   width: 20rem;
 }
-
 
 .leaf {
   color: #e67e22;
@@ -177,16 +207,16 @@ margin-top: 30px;
   height: 40px;
 }
 
-.leafdiv h2{
+.leafdiv h2 {
   margin-top: 30px;
-  }
+}
 
-  .leafdiv p{
-    font-size: 18px;
-    }
-  .leafdiv{
-    width: 20rem;
-   }
+.leafdiv p {
+  font-size: 18px;
+}
+.leafdiv {
+  width: 20rem;
+}
 
 .nutrition {
   color: #e67e22;
@@ -198,17 +228,16 @@ margin-top: 30px;
   height: 40px;
 }
 
-
-.nutritiondiv h2{
+.nutritiondiv h2 {
   margin-top: 30px;
 }
 
-.nutritiondiv{
+.nutritiondiv {
   width: 20rem;
- }
- .nutritiondiv p{
+}
+.nutritiondiv p {
   font-size: 18px;
- }
+}
 .pause {
   color: #e67e22;
   font-size: 40px;
@@ -219,13 +248,13 @@ margin-top: 30px;
   height: 40px;
 }
 
-.pausediv h2{
+.pausediv h2 {
   margin-top: 30px;
 }
- .pausediv{
+.pausediv {
   width: 20rem;
- }
+}
 
- .pausediv p{
+.pausediv p {
   font-size: 18px;
- }
+}

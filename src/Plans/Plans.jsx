@@ -11,13 +11,13 @@ const Plans = () => {
   return (
     <div>
       <div className="pricingdiv">
-        <h5>Pricing</h5>
-        <h2>Eating well without breaking the bank</h2>
+        <h5>PRICING</h5>
+        <h1>Eating well without breaking the bank</h1>
         <div className="priceslist">
           <div className="price-1">
             <h3>STARTER</h3>
             <h1>
-              <sub>$</sub>399
+              <span className="dollars">$</span>399
             </h1>
             <p>per month. That's just $13 per meal!</p>
             <div>
@@ -38,11 +38,14 @@ const Plans = () => {
             </div>
             <button className="btn-1">Get Plan</button>
           </div>
-          <div className="yellowtag"> BEST VALUE</div>
+
           <div className="price-2">
+            {/* <div className="redtag">
+              BEST PRICE
+            </div> */}
             <h3>COMPLETE</h3>
             <h1>
-              <sub>$</sub>649
+              <span className="dollars">$</span>649
             </h1>
             <p>per month. That's just $11 per meal!</p>
             <div>
@@ -63,6 +66,9 @@ const Plans = () => {
               Get access to latest recipes
             </div>
             <button className="btn-1">Get Plan</button>
+            <div className="yellowtag">
+              <h3>BEST VALUE</h3>
+            </div>
           </div>
         </div>
       </div>
@@ -72,7 +78,9 @@ const Plans = () => {
       </p>
       <div className="linediv">
         <div className="infinitydiv">
-          <div className="infinity"><IoInfiniteOutline/></div>
+          <div className="infinity">
+            <IoInfiniteOutline />
+          </div>
           <h2>Never cook again</h2>
           <p>
             Our subscriptions cover 365 days per year, even including major
@@ -80,7 +88,10 @@ const Plans = () => {
           </p>
         </div>
         <div className="leafdiv">
-         <div className="leaf"> <IoLeafOutline/></div>
+          <div className="leaf">
+            {" "}
+            <IoLeafOutline />
+          </div>
           <h2>Local and organic!</h2>
           <p>
             Our cooks only use local, fresh, and organic products to prepare

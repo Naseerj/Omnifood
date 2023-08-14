@@ -24,14 +24,16 @@
 
 .gridMeal img {
   width: 200px;
+  transition: all 0.4s;
 }
 
 .gridMeal img:hover{
   /* transform: scale(-.5, 1); */
-  -webkit-animation: scale 1s ease;
+  /* -webkit-animation: scale 1s ease;
   animation: scaledown 1s linear;
-  animation-fill-mode: forwards;
-  /* transition: 2s; */
+  animation-fill-mode: forwards; */
+  transform: scale(1.1);
+  transition: 1s;
 }
 
 .davediv {
