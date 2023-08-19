@@ -48,20 +48,20 @@ const Plans = () => {
               <span className="dollars">$</span>649
             </h1>
             <p>per month. That's just $11 per meal!</p>
-            <div>
+            <div className="price-2div1">
               {" "}
               <img src={check} alt="" />
-              <strong>2 meal</strong> per day
+              <span>2 meal</span> per day
             </div>
-            <div>
+            <div className="price-2div2">
               <img src={check} alt="" />
               Order from 11am and 9pm
             </div>
-            <div>
+            <div className="price-2div3">
               <img src={check} alt="" />
               Delivery is free
             </div>
-            <div>
+            <div className="price-2div4">
               <img src={x} alt="" />
               Get access to latest recipes
             </div>

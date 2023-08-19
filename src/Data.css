@@ -1,0 +1,11 @@
+.api{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr;
+    /* background-color: red; */
+}
+
+.api img{
+    width: 20rem;
+    /* background-color: green; */
+}
