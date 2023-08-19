@@ -1,7 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "./Meals.css";
-import { meals } from "../Data";
 import { IoFlameOutline } from "react-icons/io5";
 import { IoRestaurantOutline } from "react-icons/io5";
 import { IoStarOutline } from "react-icons/io5";
@@ -18,7 +17,7 @@ import mealf from "../assets/img/gallery/gallery-6.jpg";
 import mealg from "../assets/img/gallery/gallery-7.jpg";
 import mealh from "../assets/img/gallery/gallery-8.jpg";
 
-const Meals = () => {
+const Meals = ({strMealThumb, strImageSource}) => {
   const [api, setApi] = useState([]);
   const [data, setDataGotten] = useState("");
   const url = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
@@ -47,7 +46,7 @@ const Meals = () => {
         <button className="vegetarian">Vegetarian</button>
       </div>
       <div className="api">
-        {api.slice(1, 9).map((datum) => {
+        {api.slice(1, 10).map((datum) => {
           const {
             strArea,
             strCategory,
@@ -59,12 +58,11 @@ const Meals = () => {
           return (
             <div className="" key={idMeal}>
               <div className="">
-                <div className="">
                   <div className="gridrender">
                     <div className="showcase1render">
                       <img className="mealb" src={strMealThumb} alt="" />
                       <div className="tagsdiv1">
-                        <button>MISCELLANEOUS</button>
+                        <button>{strCategory}</button>
                         <h2>{strMeal}</h2>
                         <p>
                           {" "}
@@ -92,7 +90,6 @@ const Meals = () => {
                   </div>
                 </div>
               </div>
-            </div>
           );
         })}
       </div>

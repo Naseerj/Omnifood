@@ -88,7 +88,6 @@ button:active{
     background-color: #ffff;
     border-radius: 0.5rem;
     height: 500px;
-    /* box-shadow: 2px 3px 10px -6px #6f6f6f; */
     box-shadow: -2px 20px 30px 0px rgba(0, 0, 0, 0.1);
     border: none;
 }
@@ -100,14 +99,20 @@ button:active{
     padding: 0.4rem;
     font-family: "Rubik", sans-serif;
     border: none;
+    /* transform: upp; */
+    text-transform: uppercase;
   }
-/* .showcase1render img{
-    width: 350px;
-    border-radius: 0.5rem 0.5rem 0 0;
-} */
+
 
 .mealb{
     width: 350px;
     border-radius: 0.5rem 0.5rem 0 0;
     height: 233.5px;
+    object-fit: cover;
+}
+
+.api{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
