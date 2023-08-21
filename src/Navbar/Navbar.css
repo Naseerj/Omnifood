@@ -1,45 +1,54 @@
-.omnilogo{
-    width: 130px;
-    height: 25px;
-    align-items: center;
+.omnilogo {
+  width: 190px;
+  height: 25px;
+  align-items: center;
 }
-.overalldiv{
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    background-color: #fdf2e9;
-  padding: 10px;
-  width: 85%;
-}
-
-.linksdiv{
-    width: 35%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.login-btn{
-    background-color: #cf711f;
-    border-radius: 5px;
-    font-size: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 80px;
-    padding: 5px;
-    color: white;
-    border: none;
-font-weight: 600
+.overalldiv {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fdf2e9;
+  padding: 20px 10px 10px 10px;
+  width: 87%;
+  align-items: center;
 }
 
-.linksdiv a{
-    text-decoration: none;
-    color: #555;
-    font-weight: 600;
-
+.linksdiv {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-btn {
+  background-color: #e67e22;
+  border-radius: 10px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 110px;
+  padding: 8px 10px 8px 10px;
+  color: white;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
 }
 
-.cover{
-    background-color: #fdf2e9;
-
+.linksdiv a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+}
+/* .homelink{
+    font-size: 20px;
+}
+.mealink{
+    font-size: 20px;
+}
+.planleak{
+    font-size: 20px;
+} */
+.cover {
+  background-color: #fdf2e9;
 }
