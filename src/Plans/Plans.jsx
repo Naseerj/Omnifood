@@ -72,7 +72,7 @@ const Plans = () => {
           </div>
         </div>
       </div>
-      <p>
+      <p className="pre-p">
         Prices include all applicable taxes. You can cancel at any time. Both
         plans include the following:
       </p>

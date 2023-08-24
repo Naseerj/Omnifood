@@ -190,6 +190,11 @@
   color: black;
 }
 
+.pre-p{
+  margin: 0 auto;
+  width: 55%;
+}
+
 .linediv {
   display: flex;
   padding: 5rem;

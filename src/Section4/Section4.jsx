@@ -16,11 +16,16 @@ import meal9 from "../assets/img/gallery/gallery-9.jpg";
 import meal10 from "../assets/img/gallery/gallery-10.jpg";
 import meal11 from "../assets/img/gallery/gallery-11.jpg";
 import meal12 from "../assets/img/gallery/gallery-12.jpg";
-import {meals} from '../Meals/Meals'
-
-
+import meals from "../Meals/Meals";
+import api from "../Data";
+import Data from "../Data";
 
 const Section4 = () => {
+  const { api, dataGotten } = Data();
+  console.log(api);
+  // meals.map(()=>{
+  //   console.log(meals)
+  // })
   return (
     <div>
       <div className="testimonial">
@@ -63,7 +68,18 @@ const Section4 = () => {
           </div>
         </div>
         <div className="gridMeal">
-          <img src={meal1} alt="" />
+          {/* <img src={meals[9]} alt="" /> */}
+          {api.slice(10, 22).map((datum) => {
+            const { strCategory, strMealThumb, idMeal, strMeal } = datum;
+            return(
+              <div>
+                <img src="" alt="" key={idMeal} />
+                <img src={strMealThumb} alt="" />
+              </div>
+            )
+          })}
+          
+          {/* <img src={meal1} alt="" />
           <img src={meal2} alt="" />
           <img src={meal3} alt="" />
           <img src={meal4} alt="" />
@@ -74,8 +90,7 @@ const Section4 = () => {
           <img src={meal9} alt="" />
           <img src={meal10} alt="" />
           <img src={meal11} alt="" />
-          <img src={meal12} alt="" />
-
+          <img src={meal12} alt="" /> */}
         </div>
       </div>
     </div>

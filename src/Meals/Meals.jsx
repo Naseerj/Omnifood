@@ -7,7 +7,7 @@ import { IoStarOutline } from "react-icons/io5";
 import { MdDone } from "react-icons/md";
 import { HiArrowNarrowRight } from "react-icons/hi";
 
-const Meals = ({ strMealThumb }) => {
+const Meals = ( ) => {
   const [api, setApi] = useState([]);
   const [dataGotten, setDataGotten] = useState("");
   const [btn, setBtn] = useState("");
@@ -97,7 +97,7 @@ const Meals = ({ strMealThumb }) => {
               </div>
             );
           })
-        ) : (
+        ) : ( 
           // <div class="loading-container">
           //   <div class="loading"></div>
           //   <div id="loading-text">loading</div>
