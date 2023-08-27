@@ -4,28 +4,12 @@ import dave from "../assets/img/customers/dave.jpg";
 import ben from "../assets/img/customers/ben.jpg";
 import hannah from "../assets/img/customers/hannah.jpg";
 import steve from "../assets/img/customers/steve.jpg";
-import meal1 from "../assets/img/gallery/gallery-1.jpg";
-import meal2 from "../assets/img/gallery/gallery-2.jpg";
-import meal3 from "../assets/img/gallery/gallery-3.jpg";
-import meal4 from "../assets/img/gallery/gallery-4.jpg";
-import meal5 from "../assets/img/gallery/gallery-5.jpg";
-import meal6 from "../assets/img/gallery/gallery-6.jpg";
-import meal7 from "../assets/img/gallery/gallery-7.jpg";
-import meal8 from "../assets/img/gallery/gallery-8.jpg";
-import meal9 from "../assets/img/gallery/gallery-9.jpg";
-import meal10 from "../assets/img/gallery/gallery-10.jpg";
-import meal11 from "../assets/img/gallery/gallery-11.jpg";
-import meal12 from "../assets/img/gallery/gallery-12.jpg";
 import meals from "../Meals/Meals";
-import api from "../Data";
 import Data from "../Data";
 
 const Section4 = () => {
   const { api, dataGotten } = Data();
   console.log(api);
-  // meals.map(()=>{
-  //   console.log(meals)
-  // })
   return (
     <div>
       <div className="testimonial">
@@ -68,29 +52,15 @@ const Section4 = () => {
           </div>
         </div>
         <div className="gridMeal">
-          {/* <img src={meals[9]} alt="" /> */}
-          {api.slice(10, 22).map((datum) => {
+          {api.slice(9, 21).map((datum) => {
             const { strCategory, strMealThumb, idMeal, strMeal } = datum;
-            return(
+            return (
               <div>
                 <img src="" alt="" key={idMeal} />
                 <img src={strMealThumb} alt="" />
               </div>
-            )
+            );
           })}
-          
-          {/* <img src={meal1} alt="" />
-          <img src={meal2} alt="" />
-          <img src={meal3} alt="" />
-          <img src={meal4} alt="" />
-          <img src={meal5} alt="" />
-          <img src={meal6} alt="" />
-          <img src={meal7} alt="" />
-          <img src={meal8} alt="" />
-          <img src={meal9} alt="" />
-          <img src={meal10} alt="" />
-          <img src={meal11} alt="" />
-          <img src={meal12} alt="" /> */}
         </div>
       </div>
     </div>

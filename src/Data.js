@@ -11,7 +11,6 @@ const Data = () => {
     const fetchData = async () => {
       const res = await fetch(url);
       const result = await res.json();
-  
       const { meals } = result;
       setApi(meals);
       setDataGotten(true);
