@@ -65,10 +65,8 @@ const Meals = () => {
         {dataGotten
           ? api.slice(1, 10).map((datum) => {
               const { strCategory, strMealThumb, idMeal, strMeal } = datum;
-            
-
               return (
-                <div className="" key={idMeal}>
+                <div className="parentgrid" key={idMeal}>
                   <div className="">
                     <div className="gridrender">
                       <div className="showcase1render">
