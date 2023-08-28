@@ -32,7 +32,7 @@ const Section1 = () => {
           <img className="cus-4" src={customer4} alt="" />
           <img className="cus-5" src={customer5} alt="" />
           <img className="cus-6" src={customer6} alt="" />
-        <p> <span className="number">250,000+</span>  meals delivered last year!</p>
+        <p className="pstats"> <span className="number">250,000+</span>  meals delivered last year!</p>
         </div>
       </div>
       <div>

@@ -12,12 +12,16 @@ const Meals = () => {
   const [api, setApi] = useState([]);
   const [dataGotten, setDataGotten] = useState("");
   const [btn, setBtn] = useState("");
-  const { category, apiCategory } = DataCategory();
-  console.log(apiCategory);
+  // const { category, apiCategory } = DataCategory();
+  // console.log(apiCategory);
+
   const url = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
 
-
- 
+  const filterCategory = ()=>{
+    if(btn === 'Side'){
+      console.log('Working')
+    }
+  }
 
 
   const fetchData = async () => {
@@ -28,6 +32,8 @@ const Meals = () => {
     setApi(meals);
     setDataGotten(true);
     console.log(meals);
+
+   
   };
 
   useEffect(() => {
@@ -41,7 +47,9 @@ const Meals = () => {
       <div className="renderbtn">
         <button className="all">All</button>
         <button className="side" onClick={()=>{
-          setBtn('Seafood')
+          
+          setBtn('Side')
+          filterCategory()
           // changeSide()
         }}>Side</button>
         <button className="beef">Beef</button>
@@ -57,6 +65,7 @@ const Meals = () => {
         {dataGotten
           ? api.slice(1, 10).map((datum) => {
               const { strCategory, strMealThumb, idMeal, strMeal } = datum;
+            
 
               return (
                 <div className="" key={idMeal}>

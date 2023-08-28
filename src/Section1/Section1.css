@@ -13,7 +13,7 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   /* background-color: red; */
-  column-gap: 3rem;
+  column-gap: 2.5rem;
 }
 
 .part1div {
@@ -27,7 +27,7 @@ body {
 .header1 {
   font-size: 3rem;
   margin: 0;
-  font-weight: 700;
+  font-weight: 600;
   color: #333;
   letter-spacing: -0.5px;
 }
@@ -72,9 +72,12 @@ body {
   border: none;
 }
 .imgdiv {
-  position: relative;
+  /* position: relative; */
   /* width: 40rem; */
   display: flex;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  /* width: 10rem; */
 }
 .imgdiv img {
   width: 40px;
@@ -82,27 +85,33 @@ body {
   border: 5px solid white;
 }
 
+.number{
+  margin-left: 3.5rem;
+}
+
+
+
 .cus-1 {
 }
 .cus-2 {
   position: absolute;
-  left: 30px;
+  left: 85px;
 }
 .cus-3 {
   position: absolute;
-  left: 60px;
+  left: 115px;
 }
 .cus-4 {
   position: absolute;
-  left: 90px;
+  left: 145px;
 }
 .cus-5 {
   position: absolute;
-  left: 120px;
+  left: 175px;
 }
 .cus-6 {
   position: absolute;
-  left: 150px;
+  left: 205px;
 }
 
 .imgdiv {
@@ -116,7 +125,7 @@ body {
   margin: 0;
   font-weight: 600;
   align-items: center;
-  width: 340px;
+  width: 400px;
 }
 .number {
   color: #e67e22;
