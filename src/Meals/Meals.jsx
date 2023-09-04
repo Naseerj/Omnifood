@@ -7,6 +7,7 @@ import { IoStarOutline } from "react-icons/io5";
 import { MdDone } from "react-icons/md";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import DataCategory from "../DataCategory";
+import Data from "../Data";
 
 const Meals = () => {
   const [api, setApi] = useState([]);
@@ -22,6 +23,20 @@ const Meals = () => {
   let cat = cats;
 
   const changeCategory = () =>{
+    setCats('Side')
+    
+  }
+
+  // const changeCategory0 = () =>{
+  // [...Data]
+    
+  // }
+  const changeCategory1 = () =>{
+    setCats('Beef')
+    
+  }
+  const changeCategory2 = () =>{
+    setCats('Vegetarian')
     
   }
 
@@ -29,7 +44,7 @@ const Meals = () => {
 
   const filterCategory = () => {
     hideApi.current.style.display = "none";
-    setCats('Vegetarian')
+    setCats('Side')
     // var cat = cat[1]
     
   };
@@ -51,7 +66,7 @@ const Meals = () => {
   useEffect(() => {
     fetchData();
     // filterCategory();
-  }, []);
+  }, [cat]);
 
   return (
     <div>
@@ -59,7 +74,9 @@ const Meals = () => {
         <p>MEALS</p>
         <h2>Omnifood AI chooses from 5,000+ recipes</h2>
         <div className="renderbtn">
-          <button className="all">All</button>
+          <button onClick={()=>{
+            changeCategory0()
+          }} className="all">All</button>
           <button
             className="side"
             onClick={() => {
@@ -73,10 +90,10 @@ const Meals = () => {
             Side
           </button>
           <button onClick={(()=>{
-            setCats(['Beef'])
+            changeCategory1()
           })} className="beef">Beef</button>
           <button onClick={(()=>{
-            setCats(['Vegetarian'])
+             changeCategory2()
           })} className="vegetarian">Vegetarian</button>
         </div>
 
