@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import "./Meals.css";
 import { IoFlameOutline } from "react-icons/io5";
 import { IoRestaurantOutline } from "react-icons/io5";
@@ -10,34 +10,44 @@ import DataCategory from "../DataCategory";
 
 const Meals = () => {
   const [api, setApi] = useState([]);
+  const [filteredMeals, setFilteredMeals] = useState([]);
   const [dataGotten, setDataGotten] = useState("");
   const [btn, setBtn] = useState("");
+
+  // const { api, dataGotten } = Data();
+  // const {apiCategory, category} = DataCategory()
+
   // const { category, apiCategory } = DataCategory();
   // console.log(apiCategory);
 
   const url = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
 
-  const filterCategory = ()=>{
-    if(btn === 'Side'){
-      console.log('Working')
-    }
-  }
+  let cat = "Vegetarian";
 
+  const filterCategory = () => {
+    if (btn === "Side") {
+      console.log("Working");
+      cat = " Beef";
+    }
+  };
 
   const fetchData = async () => {
     const res = await fetch(url);
     const result = await res.json();
 
     const { meals } = result;
+    const filteredMeals = result.meals.filter(
+      (meal) => meal.strCategory === cat
+    );
     setApi(meals);
     setDataGotten(true);
-    console.log(meals);
-
-   
+    console.log(filteredMeals);
+    setFilteredMeals(filteredMeals);
   };
 
   useEffect(() => {
     fetchData();
+    // filterCategory();
   }, []);
 
   return (
@@ -46,18 +56,22 @@ const Meals = () => {
       <h2>Omnifood AI chooses from 5,000+ recipes</h2>
       <div className="renderbtn">
         <button className="all">All</button>
-        <button className="side" onClick={()=>{
-          
-          setBtn('Side')
-          filterCategory()
-          // changeSide()
-        }}>Side</button>
+        <button
+          className="side"
+          onClick={() => {
+            setBtn("Side");
+            filterCategory();
+            // changeSide()
+          }}
+        >
+          Side
+        </button>
         <button className="beef">Beef</button>
         <button className="vegetarian">Vegetarian</button>
       </div>
 
-      <div class={"loading-container " + (dataGotten ? "hidden" : "")}>
-        <div class="loading"></div>
+      <div className={"loading-container " + (dataGotten ? "hidden" : "")}>
+        <div className="loading"></div>
         <div id="loading-text">loading</div>
       </div>
 
@@ -112,9 +126,46 @@ const Meals = () => {
             // </div>
             "yoo"}
       </div>
+      <div className="categorisedDiv">
+        {filteredMeals.map((category) => {
+          const { strCategory, strMealThumb, idMeal, strMeal } = category;
+          return (
+            <div className="" key={idMeal}>
+              <div className="showcase1render">
+                <img className="mealb" src={strMealThumb} alt="" />
+                <div className="tagsdiv1">
+                  <button>{strCategory}</button>
+                  <h2>{strMeal}</h2>
+                  <p>
+                    {" "}
+                    <span>
+                      <IoFlameOutline />{" "}
+                    </span>
+                    {Math.floor(Math.random() * 100)} calories
+                  </p>
+                  <p>
+                    {" "}
+                    <span>
+                      <IoRestaurantOutline />{" "}
+                    </span>
+                    Nutriscore
+                  </p>
+                  <p>
+                    {" "}
+                    <span>
+                      <IoStarOutline />{" "}
+                    </span>
+                    {Math.floor(Math.random() * 5)} rating ® 5
+                  </p>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
-  return {btn}
+  return { btn };
 };
 
 export default Meals;

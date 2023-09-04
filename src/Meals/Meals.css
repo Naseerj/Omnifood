@@ -274,6 +274,12 @@ button:active{
     width: 0;
 }
 
+.categorisedDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
 
 @media (max-width: 1250px) {
     .api{
@@ -304,6 +310,10 @@ button:active{
    .gridrender{
     padding-top: 3.5rem;
    }
+   .showcase1render:hover{
+    transform: translate(0px, -1rem);
+    transition: all 0.3s;
+}
 }
 
 @media (max-width: 780px) {

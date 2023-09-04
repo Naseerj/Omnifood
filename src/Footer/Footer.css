@@ -1,7 +1,11 @@
 .footie{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     padding: 5rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 2rem;
 }
 .logodiv2{
     display: flex;
@@ -33,4 +37,17 @@ width: 30px;
 
 h2{
     margin-top: 0;
+}
+
+
+@media (max-width: 1010px) {
+    .footie .tes:nth-child(n+2){
+        /* display: flex;
+        flex-direction: column; */
+        /* grid-template-columns: 1fr 1fr; */
+        /* background-color: red;
+        display: grid ; */
+        /* grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr; */
+    }
 }
