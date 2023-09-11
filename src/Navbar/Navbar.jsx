@@ -9,7 +9,7 @@ import {ImCross} from 'react-icons/im'
 
 const Navbar = () => {
 
-  const [mobile, setMobile] = useState(true)
+  const [mobile, setMobile] = useState(false)
   return (
     <div className="cover">
       <div className="overalldiv">
