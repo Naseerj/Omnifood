@@ -27,10 +27,6 @@ const Meals = () => {
     
   }
 
-  // const changeCategory0 = () =>{
-  // [...Data]
-    
-  // }
   const changeCategory1 = () =>{
     setCats('Beef')
     
@@ -38,6 +34,11 @@ const Meals = () => {
   const changeCategory2 = () =>{
     setCats('Vegetarian')
     
+  }
+
+  const changeCategory3 = () =>{
+  
+    // setCats(api)
   }
 
 
@@ -49,13 +50,26 @@ const Meals = () => {
     
   };
 
+  const filterCategory1 = () => {
+    hideApi.current.style.display = "grid";
+    // hideApi.current.style.gridTemplateColumn = "1fr  1fr";
+
+    // filteredMeals.concat(Meals)
+    // filteredMeals.current.style.display = 'none'
+    setCats('')
+    // var cat = cat[1]
+    
+  };
+
+ 
+
   const fetchData = async () => {
     const res = await fetch(url);
     const result = await res.json();
 
     const { meals } = result;
     const filteredMeals = result.meals.filter(
-      (meal) => meal.strCategory === cat
+      (meal) => meal.strCategory === cat 
     );
     setApi(meals);
     setDataGotten(true);
@@ -65,8 +79,9 @@ const Meals = () => {
 
   useEffect(() => {
     fetchData();
-    // filterCategory();
   }, [cat]);
+
+
 
   return (
     <div>
@@ -74,8 +89,9 @@ const Meals = () => {
         <p>MEALS</p>
         <h2>Omnifood AI chooses from 5,000+ recipes</h2>
         <div className="renderbtn">
-          <button onClick={()=>{
-            changeCategory0()
+          <button onClick={()=>{            
+            changeCategory3()
+           filterCategory1()
           }} className="all">All</button>
           <button
             className="side"
@@ -153,8 +169,7 @@ const Meals = () => {
               // </div>
               "yoo"}
         </div>
-      </div>
-      <div className="categorisedDiv">
+        <div className="categorisedDiv">
         {filteredMeals.map((category) => {
           const { strCategory, strMealThumb, idMeal, strMeal } = category;
           return (
@@ -191,6 +206,8 @@ const Meals = () => {
           );
         })}
       </div>
+      </div>
+
     </div>
   );
   return { btn };

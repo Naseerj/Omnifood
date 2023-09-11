@@ -56,3 +56,29 @@
 .cover {
   background-color: #fdf2e9;
 }
+
+.mobile-menu-icon{
+  border: none;
+  background: none;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .linksdiv{
+    display: none;
+  }
+  .linksdiv-mobile{
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 10%;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+  }
+  .mobile-menu-icon{
+    position: absolute;
+    display: block;
+    right: 20px;
+  }
+}
+

@@ -74,10 +74,16 @@ body {
 .imgdiv {
   /* position: relative; */
   /* width: 40rem; */
-  display: flex;
-  margin-left: 30px;
-  margin-bottom: 30px;
+  /* display: flex; */
+  /* margin-left: 30px;
+  margin-bottom: 30px; */
   /* width: 10rem; */
+  display: flex;
+}
+
+.imgdiv div{
+  /* background-color: red; */
+  width: 19rem;
 }
 .imgdiv img {
   width: 40px;
@@ -86,7 +92,15 @@ body {
 }
 
 .number{
-  margin-left: 3.5rem;
+  /* margin-left: 3.5rem; */
+}
+
+.pstats{
+  /* margin-right: 90rem; */
+  position: absolute;
+  left: 20px;
+  /* background-color: red; */
+  padding-left: 4rem;
 }
 
 .cus-1 {

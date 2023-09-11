@@ -56,16 +56,19 @@ font-size: 3rem;
     font-weight: 600;
     color: #e67e22;
 }
-button:hover{
-    border: none;
+button:hover
+{
+    border: 3px solid white;
     color: #fff;
     background-color: #e67e22;
     transition: .5s;
     cursor: pointer;
 }
 
-button:active{
+button:focus{
     /* border: none; */
+    /* border: 6px solid #fae5d3; */
+
     color: #fff;
     background-color: #e67e22;
     transition: .5s;
@@ -278,9 +281,10 @@ button:active{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    column-gap: 5rem;
+    /* column-gap: 5rem; */
     row-gap: 5rem;
-    padding: 5rem;
+    padding-top: 5rem;
+    /* background-color: red; */
 }
 
 

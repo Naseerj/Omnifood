@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import omnifoodLogo from "../assets/img/omnifood-logo.png";
+import {FaBars} from 'react-icons/fa'
+import {ImCross} from 'react-icons/im'
+
+
 
 const Navbar = () => {
+
+  const [mobile, setMobile] = useState(true)
   return (
     <div className="cover">
       <div className="overalldiv">
@@ -11,7 +17,9 @@ const Navbar = () => {
           {" "}
           <img className="omnilogo" src={omnifoodLogo} alt="" />
         </Link>
-        <div className="linksdiv">
+        <div className={mobile ? 'linksdiv-mobile': 'linksdiv'} onClick={()=>{
+          setMobile(false)
+        }} >
           <Link className="homelink" to="/"> Home</Link>
           <Link className="mealink" to="/meals">
             {" "}
@@ -41,6 +49,11 @@ const Navbar = () => {
           </button>
         </div>
       </div>
+      <button className="mobile-menu-icon" onClick={()=>{
+        setMobile(!mobile)
+      }}>
+      {mobile? <ImCross/> : <FaBars /> }
+      </button>
     </div>
   );
 };

@@ -11,35 +11,42 @@ import Section2 from "../Section2/Section2";
 
 const Section1 = () => {
   return (
-   <div>
-     <div className="parentdiv">
-      <div className="part1div">
-        <h1 className="header1">
-          A healthy meal delivered to your door, step every single day
-        </h1>
-        <h3 className="header3">
-          The smart 365-days-per-year food subscription that will make you eat
-          healthy again. Tailored to your personal tastes and nutritional needs.
-        </h3>
-        <div className="btndiv">
-        <button className="btn1">Start eating well</button>
-        <button className="btn2">Sign Up</button>
+    <div>
+      <div className="parentdiv">
+        <div className="part1div">
+          <h1 className="header1">
+            A healthy meal delivered to your door, step every single day
+          </h1>
+          <h3 className="header3">
+            The smart 365-days-per-year food subscription that will make you eat
+            healthy again. Tailored to your personal tastes and nutritional
+            needs.
+          </h3>
+          <div className="btndiv">
+            <button className="btn1">Start eating well</button>
+            <button className="btn2">Sign Up</button>
+          </div>
+          <div className="imgdiv">
+            <div>
+              <img className="cus-1" src={customer1} alt="" />
+              <img className="cus-2" src={customer2} alt="" />
+              <img className="cus-3" src={customer3} alt="" />
+              <img className="cus-4" src={customer4} alt="" />
+              <img className="cus-5" src={customer5} alt="" />
+              <img className="cus-6" src={customer6} alt="" />
+            </div>
+            <p className="pstats">
+              {" "}
+              <span className="number">250,000+</span> meals delivered last
+              year!
+            </p>
+          </div>
         </div>
-        <div className="imgdiv">
-          <img className="cus-1" src={customer1} alt="" />
-          <img className="cus-2" src={customer2} alt="" />
-          <img className="cus-3" src={customer3} alt="" />
-          <img className="cus-4" src={customer4} alt="" />
-          <img className="cus-5" src={customer5} alt="" />
-          <img className="cus-6" src={customer6} alt="" />
-        <p className="pstats"> <span className="number">250,000+</span>  meals delivered last year!</p>
+        <div>
+          <img className="heroImg" src={heroImg} alt="" />
         </div>
-      </div>
-      <div>
-        <img className="heroImg" src={heroImg} alt="" />
       </div>
     </div>
-   </div>
   );
 };
 
