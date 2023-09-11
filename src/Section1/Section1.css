@@ -47,7 +47,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 450px;
-  margin: .5rem 0 2rem 0;
+  margin: 0.5rem 0 2rem 0;
 }
 .btn1 {
   background-color: #e67e22;
@@ -81,7 +81,7 @@ body {
   display: flex;
 }
 
-.imgdiv div{
+.imgdiv div {
   /* background-color: red; */
   width: 19rem;
 }
@@ -91,16 +91,16 @@ body {
   border: 5px solid white;
 }
 
-.number{
+.number {
   /* margin-left: 3.5rem; */
 }
 
-.pstats{
+.pstats {
   /* margin-right: 90rem; */
-  position: absolute;
-  left: 20px;
+  /* position: absolute;
+  left: 20px; */
   /* background-color: red; */
-  padding-left: 4rem;
+  padding-left: 2.5rem;
 }
 
 .cus-1 {
@@ -141,4 +141,60 @@ body {
 }
 .number {
   color: #e67e22;
+}
+
+@media (max-width: 1279px) {
+  .pstats {
+    width: 100px;
+    text-align: right;
+    padding-left: 2rem;
+    padding-top: 1rem;
+  }
+  .imgdiv p {
+    width: 250px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .heroImg {
+    width: 550px;
+  }
+}
+
+@media (max-width: 1121px) {
+  .heroImg {
+    width: 500px;
+  }
+  .part1div {
+    padding: 0.5rem;
+  }
+}
+@media (max-width: 1088px) {
+  .heroImg {
+    width: 480px;
+  }
+  .header1 {
+    font-size: 2.5rem;
+    width: 430px;
+    margin-bottom: 2rem;
+  }
+  .btn1 {
+    width: 220px;
+    font-size: 1.2rem;
+    padding: 10px 30px 10px 30px;
+  }
+  .btn2 {
+    width: 200px;
+    font-size: 1.2rem;
+    padding: 10px 30px 10px 30px;
+  }
+}
+
+@media (max-width: 1077px) {
+.parentdiv{
+  column-gap: 1.5rem;
+}
+.heroImg{
+  width: 480px;
+}
 }

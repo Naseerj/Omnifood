@@ -13,7 +13,7 @@ const Section4 = () => {
   return (
     <div>
       <div className="testimonial">
-        <div>
+        <div className="reviews-all">
           <h2>Testimonials</h2>
           <h1>Once you try it, you can't go back</h1>
           <div className="reviews">

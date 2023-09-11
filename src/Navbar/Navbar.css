@@ -76,8 +76,9 @@
     text-align: center;
     left: 0;
     top: 7%;
+    /* padding-top: 140rem; */
     /* transition: all 0.5s ease-in-out; */
-    width: 100%;
+    width: 91%;
     height: 200px;
     background-color: #fdf2e9;
     transition: 5s;

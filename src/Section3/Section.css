@@ -218,3 +218,112 @@ p {
 .link1{
   text-decoration: none;
 }
+
+
+@media (max-width: 1300px) {
+  .showcase1{
+    width: 320px;
+  }
+  .showcase1 img{
+    width: 320px;
+  }
+
+  .showcase2{
+    width: 320px;
+  }
+  .showcase2 img{
+    width: 320px;
+  }
+}
+
+@media (max-width: 1210px) {
+  .showcase1{
+    width: 300px;
+  }
+  .showcase1 img{
+    width: 300px;
+  }
+
+  .showcase2{
+    width: 300px;
+  }
+  .showcase2 img{
+    width: 300px;
+  }
+}
+
+@media (max-width: 1132px) {
+  .showcase1{
+    width: 300px;
+  }
+  .showcase1 img{
+    width: 300px;
+  }
+
+  .showcase2{
+    width: 300px;
+  }
+  .showcase2 img{
+    width: 300px;
+  }
+  .mealsdiv{
+    padding: 2rem;
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1046px) {
+  .showcase1{
+    width: 280px;
+  }
+  .showcase1 img{
+    width: 280px;
+  }
+
+  .showcase2{
+    width: 280px;
+  }
+  .showcase2 img{
+    width: 280px;
+  }
+ .showcases{
+  width: 570px;
+  padding-top: 4rem;
+ }
+ .mealsdiv{
+  width: 90%;
+ }
+ .ideals{
+  width: 300px;
+ }
+ .ideals {
+  align-items: center;
+}
+
+.ideals span {
+  color: #eb984e;
+  font-size: 2rem;
+  align-items: center;
+}
+
+.ideals p {
+  text-align: left;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  /* width: 400px; */
+  /* width: 200px; */
+}
+.ideals h1 {
+  margin-top: 0;
+}
+
+.ideals p > p {
+  /* margin-right: 100px; */
+  width: 130px;
+  margin: 0 100px 0 0px;
+  /* background-color: red; */
+}
+
+}
