@@ -231,5 +231,334 @@
     width: 200px;
     transition: all 0.4s;
   }
+  .davediv{
+    width: 14rem;
+  }
+  .davediv p{
+    margin-top: 2rem;
+  }
+  .hannahdiv{
+    width: 14rem;
+  }
+  .stevediv{
+    width: 14rem;
+  }
+  .bendiv{
+    width: 14rem;
 
+  }
+  .testimonial{
+    padding: 2rem;
+  }
+  .reviews{
+    grid-gap: 1rem;
+  }
+}
+
+@media (max-width: 960px) {
+  .testimonial{
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .gridMeal{
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: .5rem;
+    column-gap: .5rem;
+    /* padding: 0; */
+    /* width: 100%; */
+  }
+  .gridMeal img {
+    width: 140px;
+    transition: all 0.4s;
+    
+  }
+  .davediv{
+    width: 25rem;
+  }
+  .davediv p{
+    margin-top: 2rem;
+    width: 400px;
+  }
+  .hannahdiv{
+    width: 25rem;
+  }
+  .hannahdiv p{
+    width: 400px;
+  }
+  
+
+  .stevediv{
+    width: 25rem;
+  }
+  .stevediv p{
+    width: 400px;
+  }
+  .bendiv{
+    width: 25rem;
+
+  }
+  .bendiv p{
+    width: 400px;
+
+  }
+  .reviews-all{
+    padding-bottom: 10rem;
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 890px) {
+  .gridMeal{
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1rem;
+    column-gap: .5rem;
+    text-align: center;
+  
+  }
+  .gridMeal img {
+    width: 190px;
+    transition: all 0.4s;
+    
+  }
+  .davediv{
+    width: 24rem;
+  }
+  .davediv p{
+    margin-top: 2rem;
+    width: 350px;
+  }
+  .hannahdiv{
+    width: 24rem;
+  }
+  .hannahdiv p{
+    width: 350px;
+  }
+  
+
+  .stevediv{
+    width: 24rem;
+  }
+  .stevediv p{
+    width: 350px;
+  }
+  .bendiv{
+    width: 24rem;
+
+  }
+  .bendiv p{
+    width: 350px;
+
+  }
+  
+}
+
+@media (max-width: 830px) {
+
+  .davediv{
+    width: 22rem;
+  }
+  .davediv p{
+    margin-top: 2rem;
+    width: 350px;
+  }
+  .hannahdiv{
+    width: 22rem;
+  }
+  .hannahdiv p{
+    width: 350px;
+  }
+  
+
+  .stevediv{
+    width: 22rem;
+  }
+  .stevediv p{
+    width: 350px;
+  }
+  .bendiv{
+    width: 22rem;
+
+  }
+  .bendiv p{
+    width: 350px;
+
+  }
+  
+}
+
+@media (max-width: 800px) {
+  .gridMeal{
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: .5rem;
+    column-gap: 0rem;
+    text-align: center;
+  
+  }
+  .gridMeal img {
+    width: 170px;
+    transition: all 0.4s;
+    
+  }
+}
+
+@media (max-width: 765px) {
+
+  .davediv{
+    width: 20rem;
+  }
+  .davediv p{
+    margin-top: 2rem;
+    width: 300px;
+  }
+  .hannahdiv{
+    width: 20rem;
+  }
+  .hannahdiv p{
+    width: 300px;
+  }
+  
+
+  .stevediv{
+    width: 20rem;
+  }
+  .stevediv p{
+    width: 300px;
+  }
+  .bendiv{
+    width: 20rem;
+
+  }
+  .bendiv p{
+    width: 300px;
+
+  }
+  
+}
+
+@media (max-width: 730px) {
+  .gridMeal{
+    grid-template-columns: repeat(4, 1fr);
+    /* row-gap: .5rem; */
+    /* column-gap: 0rem; */
+    text-align: center;
+  
+  }
+  .gridMeal img {
+    width: 160px;
+    transition: all 0.4s;
+    
+  }
+}
+
+@media (max-width: 700px) {
+
+  .davediv{
+    width: 17rem;
+  }
+  .davediv p{
+    margin-top: 2rem;
+    width: 270px;
+  }
+  .hannahdiv{
+    width: 17rem;
+  }
+  .hannahdiv p{
+    width: 280px;
+  }
+  
+
+  .stevediv{
+    width: 17rem;
+  }
+  .stevediv p{
+    width: 280px;
+  }
+  .bendiv{
+    width: 17rem;
+
+  }
+  .bendiv p{
+    width: 280px;
+
+  }
+  
+}
+
+@media (max-width: 680px) {
+  .gridMeal{
+    grid-template-columns: repeat(4, 1fr);
+    /* row-gap: .5rem; */
+    /* column-gap: 0rem; */
+    text-align: center;
+  
+  }
+  .gridMeal img {
+    width: 150px;
+    transition: all 0.4s;
+    
+  }
+}
+
+@media (max-width: 640px) {
+  .gridMeal{
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1rem;
+    column-gap: .2rem;
+    text-align: center;
+  
+  }
+  .gridMeal img {
+    width: 140px;
+    transition: all 0.4s;
+  /* contain: size; */
+  }
+}
+
+@media (max-width: 615px) {
+
+  .davediv{
+    width: 13rem;
+  }
+  .davediv p{
+    margin-top: 2rem;
+    width: 250px;
+  }
+  .hannahdiv{
+    width: 13rem;
+  }
+  .hannahdiv p{
+    width: 250px;
+  }
+  
+
+  .stevediv{
+    width: 13rem;
+  }
+  .stevediv p{
+    width: 250px;
+  }
+  .bendiv{
+    width: 13rem;
+
+  }
+  .bendiv p{
+    width: 250px;
+
+  }
+  
+}
+
+@media (max-width: 590px) {
+  .gridMeal{
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: .3rem;
+    column-gap: -6rem;
+    text-align: center;
+  
+  }
+  .gridMeal img {
+    width: 85px;
+    transition: all 0.4s;
+  /* contain: size; */
+  }
 }

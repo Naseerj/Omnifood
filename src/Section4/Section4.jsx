@@ -51,12 +51,12 @@ const Section4 = () => {
             </div>
           </div>
         </div>
-        <div className="gridMeal">
+        <div className="gridMeal" >
           {api.slice(9, 21).map((datum) => {
             const { strCategory, strMealThumb, idMeal, strMeal } = datum;
             return (
-              <div>
-                <img src="" alt="" key={idMeal} />
+              <div key={idMeal}>
+                <img src="" alt="" />
                 <img src={strMealThumb} alt="" />
               </div>
             );

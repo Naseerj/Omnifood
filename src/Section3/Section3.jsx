@@ -14,7 +14,7 @@ const Section3 = () => {
   return (
     <div className="coverdiv">
       <h3>Meals</h3>
-      <h1>Omnifood AI chooses from 5,000+ recipes </h1>
+      <h1 className="coverh">Omnifood AI chooses from 5,000+ recipes </h1>
       <div className="mealsdiv">
         <div className="showcases">
           <div className="showcase1">

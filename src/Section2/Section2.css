@@ -140,3 +140,265 @@
 .imgblock2{
     position: relative;
 }
+
+@media (max-width: 1093px) {
+    .logodiv img{
+        width: 8rem;
+    }
+    .logodiv{
+        width: 90%;
+    }
+}
+
+@media (max-width: 990px) {
+    .screen1{
+        width: 210px;
+    }
+    .screen2{
+        width: 210px;
+    }
+    .design{
+        width: 15rem;
+        height: 15rem;
+        right: -3.9rem;
+    }
+    .screen3{
+        width: 210px;
+    }
+    .design2{
+        width: 15rem;
+        height: 15rem;
+        left: -4rem;
+    }
+    .screentext1 h1{
+        font-size: 50px;
+        padding-top: 6rem;
+    }
+    .pfirst{
+        font-size: 1.5rem;
+    }
+    .psecond{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 850px) {
+    .screen1{
+        width: 180px;
+    }
+    .screen2{
+        width: 180px;
+    }
+    .design{
+        width: 12rem;
+        height: 12rem;
+        right: -3.4rem;
+    }
+    .screen3{
+        width: 180px;
+    }
+    .design2{
+        width: 12rem;
+        height: 12rem;
+        left: -4rem;
+    }
+    .screentext1 > h1{
+        font-size: 50px;
+        padding-top: 3rem;
+        /* padding-top: 6rem; */
+    }
+    .pfirst{
+        font-size: 1.3rem;
+    }
+    .psecond{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 740px) {
+    .screen1{
+        width: 150px;
+    }
+    .screen2{
+        width: 150px;
+    }
+    .design{
+        width: 10rem;
+        height: 10rem;
+        right: -3.4rem;
+        top: 1.2rem;
+    }
+    .screen3{
+        width: 150px;
+    }
+    .design2{
+        width: 10rem;
+        height: 10rem;
+        left: -3.3rem;
+        top: 1.5rem;
+    }
+    .screentext1 > h1{
+        font-size: 50px;
+        padding-top: 3rem;
+        /* padding-top: 6rem; */
+    }
+    .pfirst{
+        font-size: 1.3rem;
+    }
+    .psecond{
+        font-size: 15px;
+    }
+    .screens{
+        padding: 3rem;
+    }
+    .screens2{
+        padding: 3rem;
+    } .screens3{
+        padding: 3rem;
+    }
+
+}
+
+@media (max-width: 690px) {
+    .logodiv img{
+        width: 6rem;
+    }
+    .logodiv{
+        width: 90%;
+    }
+    .screentext1 > h1{
+        font-size: 50px;
+        padding-top: 0;
+        /* padding-top: 3rem; */
+        /* padding-top: 6rem; */
+    }
+    .instruction h1{
+        font-size: 30px;
+    }
+}
+
+
+
+@media (max-width: 615px) {
+    .screen1{
+        width: 90px;
+        padding-top: 5rem;
+    }
+    .screen2{
+        width: 90px;
+        padding-top: 5rem;
+
+    }
+    .design{
+        width: 7rem;
+        height: 7rem;
+        right: -1.6rem;
+        top: 6.5rem;
+        border-width: 1rem;
+
+    }
+    .screen3{
+        width: 90px;
+        padding-top: 5.5rem;
+
+    }
+    .design2{
+        width: 7rem;
+        height: 7rem;
+        left: -1.6rem;
+        top: 6.5rem;
+        border-width: 1rem;
+    }
+    .screentext1 > h1{
+        font-size: 50px;
+        padding-top: 3rem;
+        /* padding-top: 6rem; */
+    }
+    .pfirst{
+        font-size: 1.3rem;
+    }
+    .psecond{
+        font-size: 16px;
+        width: 250px;
+    }
+    .screens{
+        padding: 3rem;
+    }
+    .screens2{
+        padding: 3rem;
+    } .screens3{
+        padding: 3rem;
+    }
+
+}
+
+@media (max-width: 570px) {
+    .instruction{
+        padding: 1.5rem;
+    }
+    .screen1{
+        width: 90px;
+        padding-top: 8rem;
+    }
+    .screen2{
+        width: 90px;
+        padding-top: 5rem;
+
+    }
+    .design{
+        width: 7rem;
+        height: 7rem;
+        right: -1.6rem;
+        top: 6.5rem;
+        border-width: 1rem;
+
+    }
+    .screen3{
+        width: 90px;
+        padding-top: 5.5rem;
+
+    }
+    
+    .design2{
+        width: 7rem;
+        height: 7rem;
+        left: -1.6rem;
+        top: 6.5rem;
+        border-width: 1rem;
+    }
+    .screentext1 > h1{
+        font-size: 50px;
+        padding-top: 3rem;
+        /* padding-top: 6rem; */
+    }
+    .pfirst{
+        font-size: 1.3rem;
+        margin-top: 0;
+    }
+
+    .psecond{
+        font-size: 16px;
+        width: 250px;
+    }
+    .screens{
+        padding: 3rem;
+    }
+    .screens2{
+        padding: 2rem;
+    } .screens3{
+        padding: 2rem;
+    }
+    /* .num1{
+        font-weight: 800;
+        font-size: 8rem;
+    } */
+
+    .screentext1 > h1{
+        font-size: 60px;
+        padding-top: 3rem;
+        font-weight: 800;
+        color: rgb(221,221,221);
+        /* padding-top: 6rem; */
+    }
+}
