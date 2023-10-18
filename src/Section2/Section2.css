@@ -402,3 +402,9 @@
         /* padding-top: 6rem; */
     }
 }
+
+@media (max-width: 571px) {
+    .psecond{
+      width: 230px;
+    }
+  }

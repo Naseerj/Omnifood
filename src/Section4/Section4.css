@@ -562,3 +562,54 @@
   /* contain: size; */
   }
 }
+
+@media (max-width: 571px) {
+  .davediv{
+    width: 13rem;
+  }
+  .davediv p{
+    margin-top: 1rem;
+    width: 200px;
+    font-size: 18px;
+  }
+
+  .davediv img{
+    width: 60px;
+  }
+  .hannahdiv{
+    width: 13rem;
+  }
+  .hannahdiv p{
+    width: 200px;
+    font-size: 18px;
+
+  }
+  .hannahdiv img{
+    width: 60px;
+  }
+  
+
+  .stevediv{
+    width: 13rem;
+  }
+  .stevediv p{
+    width: 200px;
+    font-size: 18px;
+
+  }
+  .stevediv img{
+    width: 60px;
+  }
+  .bendiv{
+    width: 13rem;
+
+  }
+  .bendiv p{
+    width: 200px;
+    font-size: 18px;
+
+  }
+  .bendiv img{
+    width: 60px;
+  }
+}
