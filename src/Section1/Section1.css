@@ -494,3 +494,17 @@ body {
   }
 }
 
+@media (max-width: 370px) {
+  .heroImg{
+    width: 300px;
+  }
+  .imgdiv p {
+    font-size: 14px;
+    width: 130px;
+    padding-left: 6.8rem;
+  }
+  .header1{
+    width: 300px;
+  }
+  
+}

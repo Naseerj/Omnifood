@@ -802,3 +802,72 @@ p {
     width: 250px;
   }
  }
+
+ @media (max-width: 430px) {
+  .psecond{
+    width: 270px;
+  }
+  .pfirst{
+    width: 300px;
+  }
+}
+
+@media (max-width: 370px) {
+  .showcases{
+    width: 320px;
+   }
+   .showcase1 img{
+    width: 300px;
+   }
+   .showcase1{
+    width: 300px;
+   }
+  
+   .showcase2 img{
+    width: 300px;
+   }
+   .showcase2{
+    width: 300px;
+   }
+   .tagsdiv1{
+     width: 240px;
+   }
+   .tagsdiv2{
+     width: 240px;
+   }
+   .pfirst{
+    width: 270px;
+  }
+   
+}
+
+@media (max-width: 350px) {
+  .showcases{
+    width: 310px;
+   }
+   .showcase1 img{
+    width: 280px;
+   }
+   .showcase1{
+    width: 280px;
+   }
+  
+   .showcase2 img{
+    width: 280px;
+   }
+   .showcase2{
+    width: 280px;
+   }
+   .tagsdiv1{
+     width: 230px;
+   }
+   .tagsdiv2{
+     width: 230px;
+   }
+   .pfirst{
+    width: 240px;
+  }
+  .psecond{
+    width: 250px;
+  }
+}

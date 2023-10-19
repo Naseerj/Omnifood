@@ -477,3 +477,11 @@
         width: 90%;
     }
   }
+  @media (max-width: 350px) {
+    .logodiv img{
+        width: 3.5rem;
+    }
+    .logodiv{
+        width: 90%;
+    }
+  }

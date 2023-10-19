@@ -693,3 +693,38 @@
     transition: all 0.4s;
   }
 }
+
+@media (max-width: 380px) {
+  .bendiv p {
+    width: 300px;
+  }
+  .hannahdiv p {
+    width: 300px;
+  }
+  .stevediv p {
+    width: 300px;
+  }
+  .davediv p {
+    width: 300px;
+  }
+}
+
+@media (max-width: 350px) {
+
+  .gridMeal img {
+    width: 100px;
+    transition: all 0.4s;
+  }
+  .bendiv p {
+    width: 280px;
+  }
+  .hannahdiv p {
+    width: 280px;
+  }
+  .stevediv p {
+    width: 280px;
+  }
+  .davediv p {
+    width: 280px;
+  }
+}
