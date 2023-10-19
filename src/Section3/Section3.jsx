@@ -1,5 +1,5 @@
 import React from "react";
-import "./Section.css";
+import "./Section3.css";
 import { IoFlameOutline } from "react-icons/io5";
 import { IoRestaurantOutline } from "react-icons/io5";
 import { IoStarOutline } from "react-icons/io5";

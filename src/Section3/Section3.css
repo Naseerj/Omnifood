@@ -624,3 +624,181 @@ p {
   }
 }
 
+@media (max-width: 551px) {
+  .ideals{
+    width: 120px;
+  }
+}
+
+@media (max-width: 540px) {
+  .mealsdiv{
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  .showcases{
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+  }
+  .showcase1 {
+    width: 400px;
+    margin-bottom: 2rem;
+  }
+  .showcase1 img {
+    width: 400px;
+    /* height: 160px; */
+  }
+  .tagsdiv1{
+    width: 350px;
+    /* padding: 0rem 0rem 0 0; */
+    padding: 1rem 2rem 1rem 2rem;
+
+
+  }
+  .showcase2 {
+    width: 400px;
+  }
+  .showcase2 img {
+    width: 400px;
+    height: 160px;
+
+  }
+  .tagsdiv2{
+    width: 350px;
+    /* padding: 0rem 0rem 0 0; */
+    padding: 1rem 2rem 1rem 2rem;
+
+
+  }
+  .ideals{
+    width: 300px;
+    padding-left: 2rem;
+  }
+  .pre{
+    width: 250px;
+  }
+  .pre p{
+    width: 200px;
+  }
+  .pre2{
+    width: 250px;
+  }
+  .pre2 p{
+    width: 200px;
+  }
+  .pre3{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .pre3 p{
+    width: 200px;
+  }
+  .ideals p {
+    /* width: 400px; */
+    /* width: 200px; */
+    width: 150px;
+    /* background-color: green; */
+  }
+}
+
+@media (max-width: 525px) {
+  .showcases{
+    width: 450px;
+  }
+  .mealsdiv div{
+    /* margin: 0 auto; */
+    align-items: center;
+    align-content: center;
+  }
+  .showcase1{
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 470px) {
+  .tagsdiv1{
+    width: 300px;
+  }
+  .tagsdiv2{
+    width: 300px;
+  }
+}
+
+@media (max-width: 460px) {
+ .showcases{
+  width: 400px;
+ }
+ .showcase1 img{
+  width: 350px;
+ }
+ .showcase1{
+  width: 350px;
+ }
+
+ .showcase2 img{
+  width: 350px;
+ }
+ .showcase2{
+  width: 350px;
+ }
+}
+
+@media (max-width: 430px) {
+  .psecond{
+    width: 300px;
+  }
+  .pfirst{
+    width: 300px;
+  }
+}
+
+@media (max-width: 420px) {
+  .showcases{
+   width: 380px;
+  }
+  .showcase1 img{
+   width: 350px;
+  }
+  .showcase1{
+   width: 350px;
+  }
+ 
+  .showcase2 img{
+   width: 350px;
+  }
+  .showcase2{
+   width: 350px;
+  }
+  .tagsdiv1{
+    width: 280px;
+  }
+  .tagsdiv2{
+    width: 280px;
+  }
+ }
+
+ @media (max-width: 400px) {
+  .showcases{
+   width: 350px;
+  }
+  .showcase1 img{
+   width: 330px;
+  }
+  .showcase1{
+   width: 330px;
+  }
+ 
+  .showcase2 img{
+   width: 330px;
+  }
+  .showcase2{
+   width: 330px;
+  }
+  .tagsdiv1{
+    width: 250px;
+  }
+  .tagsdiv2{
+    width: 250px;
+  }
+ }

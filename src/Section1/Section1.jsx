@@ -42,7 +42,7 @@ const Section1 = () => {
             </p>
           </div>
         </div>
-        <div>
+        <div className="heroImgdiv">
           <img className="heroImg" src={heroImg} alt="" />
         </div>
       </div>
