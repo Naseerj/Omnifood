@@ -21,7 +21,7 @@ function App() {
          <Route path="/meals" element={<Meals />} />
          <Route path="/data" element={<Data />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </BrowserRouter>
     </div>
   );
